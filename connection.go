@@ -9,7 +9,7 @@ import (
 	"syscall/js"
 )
 
-// SqliteJsConn implements driver.Conn.
+// S qliteJsConn implements driver.Conn.
 type SqliteJsConn struct {
 	JsDb js.Value // sql.js SQL.Database : https://sql-js.github.io/sql.js/documentation/class/Database.html
 	mu   *sync.Mutex
